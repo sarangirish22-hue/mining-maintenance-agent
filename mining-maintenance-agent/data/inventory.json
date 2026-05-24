@@ -1,0 +1,9 @@
+{
+  "parts": [
+    {"part_id": "ENG-001", "name": "Engine Filter", "quantity": 5, "oem": "Caterpillar", "compatible_models": ["CAT 793", "CAT 797"]},
+    {"part_id": "TRN-002", "name": "Transmission Seal", "quantity": 2, "oem": "Caterpillar", "compatible_models": ["CAT 793"]},
+    {"part_id": "HYD-003", "name": "Hydraulic Pump", "quantity": 1, "oem": "Komatsu", "compatible_models": ["Komatsu 930E"]},
+    {"part_id": "BRK-004", "name": "Brake Pad Set", "quantity": 8, "oem": "Caterpillar", "compatible_models": ["CAT 793", "CAT 797"]},
+    {"part_id": "ENG-005", "name": "Fuel Injector", "quantity": 0, "oem": "Caterpillar", "compatible_models": ["CAT 793"]}
+  ]
+}

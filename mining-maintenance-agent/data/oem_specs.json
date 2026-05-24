@@ -1,0 +1,9 @@
+{
+  "warranties": [
+    {"part_id": "ENG-001", "name": "Engine Filter", "oem": "Caterpillar", "warranty_valid": true, "warranty_months": 12, "compatible_models": ["CAT 793", "CAT 797"]},
+    {"part_id": "TRN-002", "name": "Transmission Seal", "oem": "Caterpillar", "warranty_valid": true, "warranty_months": 6, "compatible_models": ["CAT 793"]},
+    {"part_id": "HYD-003", "name": "Hydraulic Pump", "oem": "Komatsu", "warranty_valid": true, "warranty_months": 24, "compatible_models": ["Komatsu 930E"]},
+    {"part_id": "BRK-004", "name": "Brake Pad Set", "oem": "Caterpillar", "warranty_valid": false, "warranty_months": 0, "compatible_models": ["CAT 793", "CAT 797"]},
+    {"part_id": "ENG-005", "name": "Fuel Injector", "oem": "Caterpillar", "warranty_valid": true, "warranty_months": 12, "compatible_models": ["CAT 793"]}
+  ]
+}

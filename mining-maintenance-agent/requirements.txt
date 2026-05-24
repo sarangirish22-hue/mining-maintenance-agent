@@ -1,0 +1,9 @@
+langchain
+langgraph
+langchain-google-genai
+streamlit
+faiss-cpu
+unstructured
+pandas
+python-dotenv
+pydantic
