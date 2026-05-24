@@ -17,14 +17,20 @@ st.divider()
 col1, col2 = st.columns(2)
 
 with col1:
-    truck_id = st.text_input("🚛 Truck ID", value="CAT-793-001")
     truck_model = st.selectbox("🔧 Truck Model", ["CAT 793", "CAT 797", "Komatsu 930E"])
+    
+    truck_options = {
+        "CAT 793": ["CAT-793-001", "CAT-793-002", "CAT-793-003"],
+        "CAT 797": ["CAT-797-001", "CAT-797-002"],
+        "Komatsu 930E": ["KOM-930E-001", "KOM-930E-002", "KOM-930E-003"]
+    }
+    truck_id = st.selectbox("🚛 Truck ID", truck_options[truck_model])
 
 with col2:
     fault_description = st.text_area(
         "⚠️ Fault Description",
-        placeholder="Describe the fault...",
-        height=100
+        placeholder="Describe the fault in detail...",
+        height=120
     )
 
 if st.button("🤖 Run Maintenance Agents", type="primary"):
