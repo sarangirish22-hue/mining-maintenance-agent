@@ -1,0 +1,29 @@
+Scenario 1: Engine Overheating (Critical)
+
+Truck Model: CAT 793
+Truck ID: CAT-793-001
+Fault Description: "Engine coolant temperature warning light triggered at 105°C. Truck automatically derated. Visible steam from radiator area. Operator reports loss of power on grade."
+
+Scenario 2: Hydraulic System Leak (Moderate)
+
+Truck Model: Komatsu 930E
+Truck ID: KOM-930E-001
+Fault Description: "Hydraulic fluid leak detected near the dump cylinder. Slow leak, approximately 2 liters lost over the shift. Dump bed operation slightly delayed but functional."
+
+Scenario 3: Brake System Fault (High Priority)
+
+Truck Model: CAT 797
+Truck ID: CAT-797-001
+Fault Description: "Retarder brake warning indicator active. Operator reports reduced braking response on downhill haul road. Brake temperature sensor showing intermittent readings."
+
+Scenario 4: Tire Pressure / TPMS Alert (Low Severity)
+
+Truck Model: CAT 793
+Truck ID: CAT-793-002
+Fault Description: "TPMS alert on rear right tire showing 15% below recommended pressure. No visible damage. Truck still operational but flagged for inspection."
+
+Scenario 5: Electrical Fault — Warranty Case (Critical + Warranty)
+
+Truck Model: Komatsu 930E
+Truck ID: KOM-930E-002
+Fault Description: "Main alternator failure causing battery drain warning. Truck shut down at site. Unit is under 8 months old, still within OEM warranty period. Electrical harness inspection needed."

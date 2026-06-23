@@ -1,5 +1,5 @@
 # instructions
-
+cd mining-maintenance-agent
 pip install uv 
 
 uv sync
