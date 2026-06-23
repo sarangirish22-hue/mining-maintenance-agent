@@ -7,3 +7,4 @@ unstructured
 pandas
 python-dotenv
 pydantic
+langchain-groq
